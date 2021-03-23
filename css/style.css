@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+.top-promo {
+    height: 800px;
+    background: url("../img/background\ top.png") center center/ cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+.conteiner {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+.logo .logo_text {
+    color: white;
+    font-family: "Roboto" ;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+h1 {
+    margin-top: 53px;
+}
+h2.title {
+    margin-top: 30px;
+}
+.title {
+    color: #f9bf3d;
+    font-size: 41px;
+    font-weight: 900;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+   
+}
+.simple .title_simple {
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 21px;
+}
+.top-promo .promo_text {
+    color: white;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    padding: 0 13px;
+    margin-top: 23px;
+}
+.top-promo .promo_text span {
+    Color: orange;
+    font-weight: 700;
+}
+.top-promo .promo_btn {
+    display: block;
+    width: 313px;
+    height: 72px;
+    margin: 0 auto; 
+    margin-top: 73px;
+    box-shadow: inset 0 0 0 rgba(0, 0,0, 0.18);
+    border: 4px solid rgba(0, 0,0, 0.23);
+    background-image: linear-gradient(to top, #2798b9 0%, #5ac3e0 100%);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+.more {
+    margin-top: 73px;
+}
+.more .more_text {
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+}
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+.waiting {
+    background-color: #efefef;
+    min-height: 604px;
+    padding: 85px 0 75px 0;
+}
+.waiting .waiting_header,.finish_study .finish_study_header {
+    color: #252525;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.finish_study .finish_study_header{
+    color: white;
+}
+.waiting .waiting_divider, .finish_study .finish_study_divider  {
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.waiting .waiting_subheader {
+    margin-top: 17px;
+    color: #4a4a4a;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+.waiting .waiting_wrapper {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.waiting .waiting_wrapper .waiting_item {
+    width: 339px;
+    text-align: center;
+}
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 33px;
+    color: #4a4a4a;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+.optimization .optimization_header {
+    margin-left: 391px;
+    color: #229cbd;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.optimization .optimization_text {
+    margin-top: 25px;
+    margin-left: 391px;
+    color:#4a4a4a;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+}
+.optimization .optimization_text span {
+    font-weight: 700;
+}
+.optimization .optimization_img {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+
+}
+.finish_study {
+    background: url("../img/background\ finish\ study.png") center center/ cover no-repeat;
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+}
+
+.finish_study .finish_study_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.finish_study .finish_study_wrapper .finish_study_item {
+    width: 204px;
+}
+.finish_study .finish_study_wrapper .finish_study_item .finish_study_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+.finish_study .finish_study_wrapper .finish_study_item .finish_study_descr {
+    margin-top: 25px;
+    text-align: center;
+    color: #efefef;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.gift {
+    background-color: #efefef;
+    min-height: 626px;
+    padding: 72px 0 86px 0;
+}
+.gift .gift_img {
+    display: block;
+    margin: 0 auto;
+}
+.gift .gift_descr {
+    margin-top: 38px;
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+.gift .gift_button {
+    display: block;
+    width: 313px;
+    height: 72px;
+    margin: 0 auto; 
+    margin-top: 50px;
+    box-shadow: inset 0 0 0 rgba(0, 0,0, 0.18);
+    border: 4px solid rgba(0, 0,0, 0.23);
+    background-image: linear-gradient(to top, #2798b9 0%, #5ac3e0 100%);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+    color: white;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+.first_webinar {
+    min-height: 514px;
+    padding: 72px 0 65px 0;
+}
+.first_webinar .first_webinar_img {
+    display: block;
+    margin: 0 auto;
+}
+.first_webinar .first_webinar_descr {
+    margin-top: 35px;
+    color: #252525;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.first_webinar .first_webinar_descr h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #2798b9;
+}
+.first_webinar .first_webinar_descr span {
+    color: #252525;
+    font-size: 23px;
+    font-weight: 400;
+}
+footer{
+    background: #1a1a1a;
+    min-height: 168px;
+    padding: 61px 0 69px 0;
+}    
+.contacts .contacts_text {
+    text-align: center;
+    color: #888888;
+    font-size: 15pt;
+    font-weight: 300;
+}
+.contacts .contacts_text a {
+    color:#888888;
+}
